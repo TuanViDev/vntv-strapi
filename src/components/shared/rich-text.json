@@ -8,7 +8,18 @@
   "options": {},
   "attributes": {
     "body": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
