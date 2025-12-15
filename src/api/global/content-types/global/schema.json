@@ -12,24 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "siteName": {
-      "type": "string",
-      "required": true
+    "hotline": {
+      "type": "string"
     },
-    "favicon": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": ["images", "files", "videos"]
+    "email": {
+      "type": "string"
     },
-    "siteDescription": {
-      "type": "text",
-      "required": true
+    "address": {
+      "type": "string"
     },
-    "defaultSeo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
+    "slogan1": {
+      "type": "string"
+    },
+    "slogan2": {
+      "type": "string"
+    },
+    "slogan3": {
+      "type": "string"
     }
   }
 }

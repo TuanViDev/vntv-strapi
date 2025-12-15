@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "pins",
+  "info": {
+    "singularName": "pin",
+    "pluralName": "pins",
+    "displayName": "Pin"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::article.article"
+    }
+  }
+}
