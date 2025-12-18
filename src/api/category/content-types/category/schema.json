@@ -4,7 +4,7 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-    "displayName": "Phân loại bài viết",
+    "displayName": "Phân loại",
     "description": "Organize your content into categories"
   },
   "options": {

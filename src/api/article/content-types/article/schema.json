@@ -65,6 +65,22 @@
       },
       "inversedBy": "articles"
     },
+    "tag": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tag.tag",
+      "conditions": {
+        "visible": {
+          "==": [
+            {
+              "var": "type"
+            },
+            "Bài viết"
+          ]
+        }
+      },
+      "inversedBy": "bai_viets"
+    },
     "content": {
       "type": "dynamiczone",
       "components": [
